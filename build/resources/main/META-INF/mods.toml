@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="smp_mod_v"
+version="1.0.0"
+displayName="smp_mod_v2"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="gabri, MCreator"
+
+[[dependencies.smp_mod_v]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.smp_mod_v]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Quest 2: gather 7 lush hermit crab scut",
+    "achievementDescription": "bring 7 lush hermit crab scut to the brewer",
+    "achievementIcon": {
+      "value": "CUSTOM:Hermitcrabscut"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Quest1"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"41\" y=\"56\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

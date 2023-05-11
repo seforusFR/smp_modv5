@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hermit_crab_spawn"
+      },
+      "name": "default"
+    }
+  }
+}

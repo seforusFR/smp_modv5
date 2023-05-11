@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "smp_mod_v:blocks/quest4",
+    "up": "smp_mod_v:blocks/quest4",
+    "north": "smp_mod_v:blocks/quest4",
+    "east": "smp_mod_v:blocks/quest4",
+    "south": "smp_mod_v:blocks/quest4",
+    "west": "smp_mod_v:blocks/quest4",
+    "particle": "smp_mod_v:blocks/quest4"
+  },
+  "render_type": "solid"
+}

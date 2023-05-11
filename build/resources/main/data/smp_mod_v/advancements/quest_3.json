@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "advancements.quest_3.title"
+    },
+    "description": {
+      "translate": "advancements.quest_3.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "quest_3": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "smp_mod_v:quest_2"
+}

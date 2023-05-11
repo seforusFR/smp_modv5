@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "smp_mod_v:items/glow_berry_juice__jar"
+  },
+  "render_type": "translucent"
+}

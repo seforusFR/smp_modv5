@@ -1,0 +1,9 @@
+{
+  "parent": "smp_mod_v:custom/empty_jar_block",
+  "textures": {
+    "all": "smp_mod_v:blocks/empty_jar_block",
+    "particle": "smp_mod_v:blocks/empty_jar_block",
+    "2": "smp_mod_v:blocks/empty_jar_block"
+  },
+  "render_type": "cutout"
+}

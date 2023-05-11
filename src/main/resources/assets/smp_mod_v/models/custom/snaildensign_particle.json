@@ -1,0 +1,7 @@
+
+{
+  "parent": "smp_mod_v:displaysettings/sign_snail.animation",
+  "textures": {
+    "particle": "smp_mod_v:blocks/sign_snail"
+  }
+}

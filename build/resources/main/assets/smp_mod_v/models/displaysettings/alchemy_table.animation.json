@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"dile": {
+			"loop": true,
+			"animation_length": 1.56,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4": {
+							"vector": [0, 35, 0]
+						},
+						"0.92": {
+							"vector": [0, 132.5, 0]
+						},
+						"1.56": {
+							"vector": [0, 90, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4": {
+							"vector": [0, 3, 0]
+						},
+						"0.92": {
+							"vector": [0, -0.4, 0]
+						},
+						"1.56": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

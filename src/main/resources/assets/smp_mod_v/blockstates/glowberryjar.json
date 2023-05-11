@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "smp_mod_v:block/glowberryjar"
+    },
+    "facing=east": {
+      "model": "smp_mod_v:block/glowberryjar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "smp_mod_v:block/glowberryjar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "smp_mod_v:block/glowberryjar",
+      "y": 270
+    }
+  }
+}

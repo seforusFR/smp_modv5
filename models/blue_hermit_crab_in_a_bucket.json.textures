@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blue_hermit_crab_in_a_bucket"
+      },
+      "name": "default"
+    }
+  }
+}

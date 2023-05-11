@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "smp_mod_v:custom/snaildensign_particle"
+    },
+    "facing=east": {
+      "model": "smp_mod_v:custom/snaildensign_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "smp_mod_v:custom/snaildensign_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "smp_mod_v:custom/snaildensign_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "smp_mod_v:custom/snaildensign_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "smp_mod_v:custom/snaildensign_particle",
+      "x": 90
+    }
+  }
+}

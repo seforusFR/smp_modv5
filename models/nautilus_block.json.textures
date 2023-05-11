@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nautilus_shell"
+      },
+      "name": "default"
+    }
+  }
+}

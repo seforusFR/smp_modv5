@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Quest 1:  find 5 amethyst shards",
+    "achievementDescription": "find 5 amethyst shard and bring them to the jeweler",
+    "achievementIcon": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"53\" y=\"27\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

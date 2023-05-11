@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "smp_mod_v:blocks/quest2activator",
+    "up": "smp_mod_v:blocks/quest2activator",
+    "north": "smp_mod_v:blocks/quest2activator",
+    "east": "smp_mod_v:blocks/quest2activator",
+    "south": "smp_mod_v:blocks/quest2activator",
+    "west": "smp_mod_v:blocks/quest2activator",
+    "particle": "smp_mod_v:blocks/quest2activator"
+  },
+  "render_type": "solid"
+}

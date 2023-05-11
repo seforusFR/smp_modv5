@@ -1,0 +1,6 @@
+{
+  "parent": "smp_mod_v:displaysettings/fruit_squeezer.animation",
+  "textures": {
+    "particle": "smp_mod_v:blocks/fruit_squeezer"
+  }
+}

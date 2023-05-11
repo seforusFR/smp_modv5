@@ -1,0 +1,6 @@
+{
+  "parent": "smp_mod_v:displaysettings/alchemy_table.animation",
+  "textures": {
+    "particle": "smp_mod_v:blocks/alchemy_table"
+  }
+}

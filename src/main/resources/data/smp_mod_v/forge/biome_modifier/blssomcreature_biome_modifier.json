@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "lush_caves",
+  "spawners": {
+    "type": "smp_mod_v:blssomcreature",
+    "weight": 300,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

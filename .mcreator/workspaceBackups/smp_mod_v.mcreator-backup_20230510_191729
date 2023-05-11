@@ -1,0 +1,1024 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lushhermitcrab",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lushhermitcrab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/client/renderer/LushhermitcrabRenderer.java",
+          "src/main/resources/data/smp_mod_v/forge/biome_modifier/lushhermitcrab_biome_modifier.json",
+          "src/main/java/net/mcreator/smpmodv/entity/LushhermitcrabEntity.java",
+          "src/main/java/net/mcreator/smpmodv/entity/model/LushhermitcrabModel.java",
+          "src/main/resources/assets/smp_mod_v/models/item/lushhermitcrab_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "LushhermitcrabOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lushhermitcrab_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/LushhermitcrabOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hermitcrabscut",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hermitcrabscut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/item/HermitcrabscutItem.java",
+          "src/main/resources/assets/smp_mod_v/models/item/hermitcrabscut.json"
+        ]
+      }
+    },
+    {
+      "name": "Hermitpotionrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hermitpotionrecipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/recipes/brewing/HermitpotionrecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Blssomcreature",
+      "type": "animatedentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blssomcreature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/entity/model/BlssomcreatureModel.java",
+          "src/main/java/net/mcreator/smpmodv/client/renderer/BlssomcreatureRenderer.java",
+          "src/main/java/net/mcreator/smpmodv/entity/BlssomcreatureEntity.java",
+          "src/main/resources/assets/smp_mod_v/models/item/blssomcreature_spawn_egg.json",
+          "src/main/resources/data/smp_mod_v/forge/biome_modifier/blssomcreature_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Onblossomtickupdate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onblossomtickupdate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/OnblossomtickupdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlssomcreatureRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blssomcreature_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/BlssomcreatureRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blossomcraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blossomcraft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/recipes/brewing/BlossomcraftBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Lushgoblin",
+      "type": "animatedentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lushgoblin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/client/renderer/LushgoblinRenderer.java",
+          "src/main/java/net/mcreator/smpmodv/entity/model/LushgoblinModel.java",
+          "src/main/resources/assets/smp_mod_v/models/item/lushgoblin_spawn_egg.json",
+          "src/main/java/net/mcreator/smpmodv/entity/LushgoblinEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "LushgoblinOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lushgoblin_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/LushgoblinOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whendefendingwalkproc",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whendefendingwalkproc",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/WhendefendingwalkprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Attackgoblin",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attackgoblin",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/AttackgoblinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest1",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/smp_mod_v/advancements/quest_1.json"
+        ]
+      }
+    },
+    {
+      "name": "LushgoblinRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lushgoblin_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/LushgoblinRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Questtickupdate",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questtickupdate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/QuesttickupdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest1activatorEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_1activator_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Quest1activatorEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest1activator",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_1activator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/block/Quest1activatorBlock.java",
+          "src/main/resources/assets/smp_mod_v/models/item/quest_1activator.json",
+          "src/main/resources/assets/smp_mod_v/models/block/quest_1activator.json",
+          "src/main/resources/assets/smp_mod_v/blockstates/quest_1activator.json"
+        ]
+      }
+    },
+    {
+      "name": "QuesteraserRightclicked",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questeraser_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/QuesteraserRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Questeraser",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questeraser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/item/questeraser.json",
+          "src/main/java/net/mcreator/smpmodv/item/QuesteraserItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystnecklaceBodyTickEvent",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystnecklace_body_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/AmethystnecklaceBodyTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amethystnecklace",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystnecklace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/item/AmethystnecklaceItem.java",
+          "src/main/resources/assets/smp_mod_v/models/item/amethystnecklace_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Quest2",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/smp_mod_v/advancements/quest_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CrabmastereffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crabmastereffect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/CrabmastereffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crabmastereffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crabmastereffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/potion/CrabmastereffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Crabmaster",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crabmaster",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Quest2activator",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_2activator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/block/Quest2activatorBlock.java",
+          "src/main/resources/assets/smp_mod_v/models/item/quest_2activator.json",
+          "src/main/resources/assets/smp_mod_v/models/block/quest_2activator.json",
+          "src/main/resources/assets/smp_mod_v/blockstates/quest_2activator.json"
+        ]
+      }
+    },
+    {
+      "name": "Quest2activatorproc",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_2activatorproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Quest2activatorprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amethystdust",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystdust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/item/amethystdust.json",
+          "src/main/java/net/mcreator/smpmodv/item/AmethystdustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Whenslotchanges0",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whenslotchanges_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Whenslotchanges0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alchemytablegui",
+      "type": "gui",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchemytablegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/client/gui/AlchemytableguiScreen.java",
+          "src/main/java/net/mcreator/smpmodv/world/inventory/AlchemytableguiMenu.java",
+          "src/main/java/net/mcreator/smpmodv/network/AlchemytableguiSlotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Alchemytable",
+      "type": "animatedblock",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchemytable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/block/AlchemytableBlock.java",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/AlchemytableTileRenderer.java",
+          "src/main/java/net/mcreator/smpmodv/block/model/AlchemytableBlockModel.java",
+          "src/main/java/net/mcreator/smpmodv/block/display/AlchemytableDisplayItem.java",
+          "src/main/resources/assets/smp_mod_v/blockstates/alchemytable.json",
+          "src/main/resources/assets/smp_mod_v/models/item/alchemytable.json",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/AlchemytableDisplayItemRenderer.java",
+          "src/main/resources/assets/smp_mod_v/models/custom/alchemytable_particle.json",
+          "src/main/java/net/mcreator/smpmodv/block/model/AlchemytableDisplayModel.java",
+          "src/main/java/net/mcreator/smpmodv/block/entity/AlchemytableTileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Amethystdustrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystdustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/smp_mod_v/recipes/amethystdustrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glowberriejuice",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberriejuice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/item/glowberriejuice.json",
+          "src/main/java/net/mcreator/smpmodv/item/GlowberriejuiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emptyjarblock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptyjarblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/block/emptyjarblock.json",
+          "src/main/java/net/mcreator/smpmodv/block/EmptyjarblockBlock.java",
+          "src/main/resources/assets/smp_mod_v/models/item/emptyjarblock.json",
+          "src/main/resources/assets/smp_mod_v/blockstates/emptyjarblock.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyjarRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptyjar_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/EmptyjarRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Glowberryjar",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberryjar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/block/glowberryjar.json",
+          "src/main/java/net/mcreator/smpmodv/block/GlowberryjarBlock.java",
+          "src/main/resources/assets/smp_mod_v/blockstates/glowberryjar.json",
+          "src/main/resources/assets/smp_mod_v/models/item/glowberryjar.json"
+        ]
+      }
+    },
+    {
+      "name": "Squeezer",
+      "type": "animatedblock",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeezer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/block/model/SqueezerDisplayModel.java",
+          "src/main/java/net/mcreator/smpmodv/block/display/SqueezerDisplayItem.java",
+          "src/main/java/net/mcreator/smpmodv/block/entity/SqueezerTileEntity.java",
+          "src/main/resources/assets/smp_mod_v/models/item/squeezer.json",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/SqueezerTileRenderer.java",
+          "src/main/resources/assets/smp_mod_v/blockstates/squeezer.json",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/SqueezerDisplayItemRenderer.java",
+          "src/main/resources/assets/smp_mod_v/models/custom/squeezer_particle.json",
+          "src/main/java/net/mcreator/smpmodv/block/SqueezerBlock.java",
+          "src/main/java/net/mcreator/smpmodv/block/model/SqueezerBlockModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Whenslotchangessqueezer",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whenslotchangessqueezer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/WhenslotchangessqueezerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SqueezerGUI",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeezer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/client/gui/SqueezerGUIScreen.java",
+          "src/main/java/net/mcreator/smpmodv/world/inventory/SqueezerGUIMenu.java",
+          "src/main/java/net/mcreator/smpmodv/network/SqueezerGUISlotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Quest3activator",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_3activator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/item/quest_3activator.json",
+          "src/main/resources/assets/smp_mod_v/blockstates/quest_3activator.json",
+          "src/main/resources/assets/smp_mod_v/models/block/quest_3activator.json",
+          "src/main/java/net/mcreator/smpmodv/block/Quest3activatorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Quest3activatorproc",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_3activatorproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Quest3activatorprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest3",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/smp_mod_v/advancements/quest_3.json"
+        ]
+      }
+    },
+    {
+      "name": "SqueezerGUIThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeezer_gui_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/SqueezerGUIThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlchemytableguiThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchemytablegui_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/AlchemytableguiThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest4activator",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_4activator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/smp_mod_v/models/item/quest_4activator.json",
+          "src/main/resources/assets/smp_mod_v/blockstates/quest_4activator.json",
+          "src/main/java/net/mcreator/smpmodv/block/Quest4activatorBlock.java",
+          "src/main/resources/assets/smp_mod_v/models/block/quest_4activator.json"
+        ]
+      }
+    },
+    {
+      "name": "Quest4activatorproc",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_4activatorproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Quest4activatorprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quest4",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/smp_mod_v/advancements/quest_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Followplayerquest4",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "followplayerquest_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/procedures/Followplayerquest4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snaildensign",
+      "type": "animatedblock",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snaildensign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/smpmodv/block/entity/SnaildensignTileEntity.java",
+          "src/main/resources/assets/smp_mod_v/blockstates/snaildensign.json",
+          "src/main/resources/assets/smp_mod_v/models/custom/snaildensign_particle.json",
+          "src/main/java/net/mcreator/smpmodv/block/model/SnaildensignBlockModel.java",
+          "src/main/resources/assets/smp_mod_v/models/item/snaildensign.json",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/SnaildensignTileRenderer.java",
+          "src/main/java/net/mcreator/smpmodv/block/display/SnaildensignDisplayItem.java",
+          "src/main/java/net/mcreator/smpmodv/block/renderer/SnaildensignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/smpmodv/block/SnaildensignBlock.java",
+          "src/main/java/net/mcreator/smpmodv/block/model/SnaildensignDisplayModel.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.quest_4.descr": "escort the traveler to the snail lake",
+      "advancements.quest_2.title": "Quest 2: gather 7 lush hermit crab scut",
+      "item.smp_mod_v.amethystnecklace_helmet": "Amethystnecklace Helmet",
+      "gui.smp_mod_v.alchemytablegui.label_15": "15",
+      "block.smp_mod_v.alchemytable": "Alchemy table",
+      "block.smp_mod_v.quest_3activator": "Quest 3 activator",
+      "entity.smp_mod_v.blssomcreature": "Blossom creature",
+      "advancements.quest_2.descr": "bring 7 lush hermit crab scut to the brewer",
+      "advancements.quest_1.descr": "find 5 amethyst shard and bring them to the jeweler",
+      "advancements.quest_4.title": "Quest 4",
+      "item.smp_mod_v.amethystnecklace_boots": "Amethystnecklace Boots",
+      "gui.smp_mod_v.alchemytablegui.label_24": "24",
+      "item.smp_mod_v.amethystdust": "Amethyst dust",
+      "entity.smp_mod_v.lushgoblin": "Lushgoblin",
+      "item.smp_mod_v.hermitcrabscut": "Hermit crab scut",
+      "effect.smp_mod_v.crabmastereffect": "crab master",
+      "gui.smp_mod_v.alchemytablegui.label_8": "8",
+      "item.minecraft.potion.effect.crabmaster": "Potion of Crab master",
+      "block.smp_mod_v.snaildensign": "Snail den sign",
+      "block.smp_mod_v.quest_1activator": "Quest 1activator",
+      "block.smp_mod_v.emptyjarblock": "Empty jar",
+      "advancements.quest_1.title": "Quest 1:  find 5 amethyst shards",
+      "block.smp_mod_v.quest_4activator": "Quest 3 activator",
+      "gui.smp_mod_v.alchemytablegui.label_4": "4",
+      "item.minecraft.tipped_arrow.effect.crabmaster": "Arrow of Crab master",
+      "gui.smp_mod_v.alchemytablegui.label_6": "6",
+      "gui.smp_mod_v.alchemytablegui.label_alchemy_table": "Alchemy Table",
+      "advancements.quest_3.descr": "bring 32 glow berries tp the barman",
+      "entity.smp_mod_v.lushhermitcrab": "Lush hermit crab",
+      "advancements.quest_3.title": "Quest 3",
+      "gui.smp_mod_v.alchemytablegui.label_2": "2",
+      "item.smp_mod_v.amethystnecklace_chestplate": "amethyst magic necklace",
+      "item.smp_mod_v.blssomcreature_spawn_egg": "Blossom creature Spawn Egg",
+      "item.smp_mod_v.glowberriejuice": "Glow berry juice",
+      "item.smp_mod_v.lushgoblin_spawn_egg": "Lushgoblin Spawn Egg",
+      "item.smp_mod_v.questeraser": "Questeraser",
+      "gui.smp_mod_v.squeezer_gui.label_berry_squeezer": "Fruit Squeezer",
+      "gui.smp_mod_v.alchemytablegui.label_10": "10",
+      "gui.smp_mod_v.alchemytablegui.label_32": "32",
+      "block.smp_mod_v.quest_2activator": "Quest 2 activator",
+      "block.smp_mod_v.squeezer": "Squeezer",
+      "item.smp_mod_v.lushhermitcrab_spawn_egg": "Lush hermit crab Spawn Egg",
+      "item.minecraft.splash_potion.effect.crabmaster": "Splash Potion of Crab master",
+      "item.minecraft.lingering_potion.effect.crabmaster": "Lingering Potion of Crab master",
+      "item.smp_mod_v.amethystnecklace_leggings": "Amethystnecklace Leggings",
+      "block.smp_mod_v.glowberryjar": "Glowberryjar"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "smp_mod_v",
+    "modName": "smp_mod_v2",
+    "version": "1.0.0",
+    "author": "gabri, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.smpmodv",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

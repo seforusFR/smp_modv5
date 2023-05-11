@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "crab master",
+    "icon": "resistance.png",
+    "color": {
+      "value": -2857980,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CrabmastereffectEffectStartedapplied"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Quest 4",
+    "achievementDescription": "escort the traveler to the snail lake",
+    "achievementIcon": {
+      "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Quest3"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"53\" y=\"27\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}
